@@ -22,8 +22,8 @@
   --success: #1f8a55;
 
   /* Typography */
-  --font-display: "Poppins", "Segoe UI", sans-serif;
-  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-display: Arial, Helvetica, sans-serif;
+  --font-body: Arial, Helvetica, sans-serif;
 
   /* Layout */
   --max-width: 1200px;
