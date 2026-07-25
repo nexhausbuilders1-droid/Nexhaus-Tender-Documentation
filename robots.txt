@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.tenderproadvisory.com/sitemap.xml
+Sitemap: https://www.nexhaustenders.com/sitemap.xml
