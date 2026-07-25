@@ -1,4 +1,4 @@
-# TenderPro Advisory — Website
+# Nexhaus Tenders — Website
 
 A complete, responsive, static business website for a tender packaging, bidding, submission and procurement consultancy service. Built with semantic HTML5, hand-written CSS and vanilla JavaScript only — no frameworks, no build step, no server required.
 
@@ -39,7 +39,7 @@ TenderWebsite/
    ```bash
    git init
    git add .
-   git commit -m "Initial commit — TenderPro Advisory website"
+   git commit -m "Initial commit — Nexhaus Tenders website"
    git branch -M main
    git remote add origin https://github.com/YOUR-USERNAME/tender-website.git
    git push -u origin main
@@ -77,7 +77,7 @@ To use your own photography instead:
 
 All text lives directly inside the HTML files — there is no CMS or database.
 
-- **Company name, phone, email, address, WhatsApp number:** search for `TenderPro Advisory`, `+254 700 000 000`, `info@tenderproadvisory.com` and the office address across all HTML files and replace with your own details (also update the `href="https://wa.me/254700000000"` WhatsApp links and `href="tel:..."` links).
+- **Company name, phone, email, address, WhatsApp number:** search for `Nexhaus Tenders`, `+254 745 553 496`, `nexhaustenders1@gmail.com` and the office address across all HTML files and replace with your own details (also update the `href="https://wa.me/254745553496"` WhatsApp links and `href="tel:..."` links).
 - **Headlines and paragraphs:** open any `.html` file in a text editor and edit the text between tags directly, e.g. change the text inside `<h1>...</h1>` or `<p>...</p>`.
 - **Pricing:** edit the amounts inside `pricing.html` inside each `.price-amount` element.
 - **FAQs:** add or remove `.faq-item` blocks inside `faq.html`, following the existing pattern of a `.faq-question` button and a `.faq-answer` paragraph.
@@ -86,7 +86,7 @@ All text lives directly inside the HTML files — there is no CMS or database.
 ## 5. Customization Guide
 
 - **Colors:** all colors are defined once as CSS variables at the top of `css/style.css` under `:root` (e.g. `--navy`, `--royal`, `--gold`). Change a variable there and it updates across the entire site.
-- **Fonts:** the site uses Google Fonts (Poppins for headings, Inter for body text), loaded via the `<link>` tag in each page's `<head>`. Swap the Google Fonts URL and the `--font-display` / `--font-body` variables in `style.css` to change typefaces.
+- **Fonts:** the site uses Arial (a system font, so no external font files or internet connection are required) for both headings and body text, set via the `--font-display` / `--font-body` variables in `style.css`. To switch to a different typeface, update those two variables — add a Google Fonts `<link>` back into each page's `<head>` if you choose a web font.
 - **Navigation links:** the header menu is repeated inside the `<nav class="main-nav">` block on every page — update all six files if you add or remove a page.
 - **Sections:** each homepage section is wrapped in its own `<section>` tag with a comment above it (e.g. `<!-- ================= HERO ================= -->`) so you can find, reorder, duplicate or delete sections easily.
 - **Animations:** scroll fade-ins are applied by adding the `reveal` class to any element; animated counters work on any element with a `data-count="123"` attribute. Both are handled automatically by `js/script.js`.
@@ -105,10 +105,10 @@ Then visit `http://localhost:8000` in your browser.
 
 ## 7. SEO Notes
 
-- Each page has a unique `<title>`, meta description, meta keywords, canonical URL, Open Graph tags and Twitter Card tags — update the placeholder domain `https://www.tenderproadvisory.com/` throughout once your GitHub Pages or custom domain URL is confirmed.
+- Each page has a unique `<title>`, meta description, meta keywords, canonical URL, Open Graph tags and Twitter Card tags — update the placeholder domain `https://www.nexhaustenders.com/` throughout once your GitHub Pages or custom domain URL is confirmed.
 - `sitemap.xml` and `robots.txt` are included at the project root and reference the same placeholder domain — update both after publishing.
 - If you connect a custom domain to GitHub Pages, add a `CNAME` file at the project root containing your domain name (GitHub's Pages settings page can generate this for you automatically).
 
 ## Credits
 
-Photography sourced from Unsplash contributors under the free [Unsplash License](https://unsplash.com/license) (no attribution required, but crediting photographers is appreciated). Fonts: [Poppins](https://fonts.google.com/specimen/Poppins) and [Inter](https://fonts.google.com/specimen/Inter), both open source via Google Fonts.
+Photography sourced from Unsplash contributors under the free [Unsplash License](https://unsplash.com/license) (no attribution required, but crediting photographers is appreciated), chosen specifically to show African business people and workplaces — including images shot in Nairobi, Kenya (Cytonn Photography) and Lagos, Nigeria (Ninthgrid, an Afrocentric stock photography studio). Typeface: Arial, a pre-installed system font on virtually every device, so no external font loading is required.
